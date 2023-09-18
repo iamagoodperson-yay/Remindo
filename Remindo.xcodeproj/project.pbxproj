@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4DA7A92A982D9600D1F53E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4DA7A82A982D9600D1F53E /* GoogleService-Info.plist */; };
+		BA4DA7AC2A982F6800D1F53E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BA4DA7AB2A982F6800D1F53E /* FirebaseAnalytics */; };
+		BA4DA7AE2A982F6800D1F53E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BA4DA7AD2A982F6800D1F53E /* FirebaseAnalyticsSwift */; };
+		BA4DA7E62A9DABD400D1F53E /* hwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DA7E52A9DABD400D1F53E /* hwModel.swift */; };
+		BA58E9E82AB3DFC700D26AF5 /* notificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA58E9E72AB3DFC700D26AF5 /* notificationHandler.swift */; };
+		BAA8347E2A90D00100D352E6 /* RemindoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8347D2A90D00100D352E6 /* RemindoApp.swift */; };
+		BAA834802A90D00100D352E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8347F2A90D00100D352E6 /* ContentView.swift */; };
+		BAA834822A90D00200D352E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA834812A90D00200D352E6 /* Assets.xcassets */; };
+		BAA834852A90D00200D352E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA834842A90D00200D352E6 /* Preview Assets.xcassets */; };
+		BAA8348C2A90D01C00D352E6 /* homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8348B2A90D01C00D352E6 /* homework.swift */; };
+		BAA8348E2A90D02A00D352E6 /* reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8348D2A90D02A00D352E6 /* reminders.swift */; };
+		BAA834902A90D03300D352E6 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA8348F2A90D03300D352E6 /* settings.swift */; };
+		BAD21AEE2AB5EA930076B075 /* splashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD21AED2AB5EA930076B075 /* splashScreenView.swift */; };
+		BAFB261E2A9332B600546301 /* homeworkShower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB261D2A9332B600546301 /* homeworkShower.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA4DA7A82A982D9600D1F53E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA4DA7E52A9DABD400D1F53E /* hwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwModel.swift; sourceTree = "<group>"; };
+		BA58E9E72AB3DFC700D26AF5 /* notificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationHandler.swift; sourceTree = "<group>"; };
+		BAA8347A2A90D00100D352E6 /* Remindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA8347D2A90D00100D352E6 /* RemindoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindoApp.swift; sourceTree = "<group>"; };
+		BAA8347F2A90D00100D352E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAA834812A90D00200D352E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA834842A90D00200D352E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAA8348B2A90D01C00D352E6 /* homework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework.swift; sourceTree = "<group>"; };
+		BAA8348D2A90D02A00D352E6 /* reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminders.swift; sourceTree = "<group>"; };
+		BAA8348F2A90D03300D352E6 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		BAD21AED2AB5EA930076B075 /* splashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenView.swift; sourceTree = "<group>"; };
+		BAFB261D2A9332B600546301 /* homeworkShower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkShower.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA834772A90D00100D352E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4DA7AE2A982F6800D1F53E /* FirebaseAnalyticsSwift in Frameworks */,
+				BA4DA7AC2A982F6800D1F53E /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4DA7E82A9DABFB00D1F53E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAD21AED2AB5EA930076B075 /* splashScreenView.swift */,
+				BAA8347F2A90D00100D352E6 /* ContentView.swift */,
+				BAA8348B2A90D01C00D352E6 /* homework.swift */,
+				BAFB261D2A9332B600546301 /* homeworkShower.swift */,
+				BAA8348D2A90D02A00D352E6 /* reminders.swift */,
+				BAA8348F2A90D03300D352E6 /* settings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAA834712A90D00000D352E6 = {
+			isa = PBXGroup;
+			children = (
+				BAA8347C2A90D00100D352E6 /* Remindo */,
+				BAA8347B2A90D00100D352E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA8347B2A90D00100D352E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA8347A2A90D00100D352E6 /* Remindo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA8347C2A90D00100D352E6 /* Remindo */ = {
+			isa = PBXGroup;
+			children = (
+				BA4DA7E82A9DABFB00D1F53E /* View */,
+				BA4DA7E52A9DABD400D1F53E /* hwModel.swift */,
+				BA58E9E72AB3DFC700D26AF5 /* notificationHandler.swift */,
+				BAA8347D2A90D00100D352E6 /* RemindoApp.swift */,
+				BA4DA7A82A982D9600D1F53E /* GoogleService-Info.plist */,
+				BAA834812A90D00200D352E6 /* Assets.xcassets */,
+				BAA834832A90D00200D352E6 /* Preview Content */,
+			);
+			path = Remindo;
+			sourceTree = "<group>";
+		};
+		BAA834832A90D00200D352E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAA834842A90D00200D352E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA834792A90D00100D352E6 /* Remindo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA834882A90D00200D352E6 /* Build configuration list for PBXNativeTarget "Remindo" */;
+			buildPhases = (
+				BAA834762A90D00100D352E6 /* Sources */,
+				BAA834772A90D00100D352E6 /* Frameworks */,
+				BAA834782A90D00100D352E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remindo;
+			packageProductDependencies = (
+				BA4DA7AB2A982F6800D1F53E /* FirebaseAnalytics */,
+				BA4DA7AD2A982F6800D1F53E /* FirebaseAnalyticsSwift */,
+			);
+			productName = Remindo;
+			productReference = BAA8347A2A90D00100D352E6 /* Remindo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA834722A90D00000D352E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BAA834792A90D00100D352E6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BAA834752A90D00100D352E6 /* Build configuration list for PBXProject "Remindo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA834712A90D00000D352E6;
+			packageReferences = (
+				BA4DA7AA2A982F6800D1F53E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BAA8347B2A90D00100D352E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA834792A90D00100D352E6 /* Remindo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA834782A90D00100D352E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA834852A90D00200D352E6 /* Preview Assets.xcassets in Resources */,
+				BAA834822A90D00200D352E6 /* Assets.xcassets in Resources */,
+				BA4DA7A92A982D9600D1F53E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA834762A90D00100D352E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA8348C2A90D01C00D352E6 /* homework.swift in Sources */,
+				BA58E9E82AB3DFC700D26AF5 /* notificationHandler.swift in Sources */,
+				BAA834802A90D00100D352E6 /* ContentView.swift in Sources */,
+				BAA8347E2A90D00100D352E6 /* RemindoApp.swift in Sources */,
+				BAA8348E2A90D02A00D352E6 /* reminders.swift in Sources */,
+				BAA834902A90D03300D352E6 /* settings.swift in Sources */,
+				BAD21AEE2AB5EA930076B075 /* splashScreenView.swift in Sources */,
+				BA4DA7E62A9DABD400D1F53E /* hwModel.swift in Sources */,
+				BAFB261E2A9332B600546301 /* homeworkShower.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAA834862A90D00200D352E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAA834872A90D00200D352E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA834892A90D00200D352E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remindo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SST.Remindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAA8348A2A90D00200D352E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remindo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SST.Remindo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA834752A90D00100D352E6 /* Build configuration list for PBXProject "Remindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA834862A90D00200D352E6 /* Debug */,
+				BAA834872A90D00200D352E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA834882A90D00200D352E6 /* Build configuration list for PBXNativeTarget "Remindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA834892A90D00200D352E6 /* Debug */,
+				BAA8348A2A90D00200D352E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA4DA7AA2A982F6800D1F53E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 10.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA4DA7AB2A982F6800D1F53E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA4DA7AA2A982F6800D1F53E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BA4DA7AD2A982F6800D1F53E /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA4DA7AA2A982F6800D1F53E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BAA834722A90D00000D352E6 /* Project object */;
+}
