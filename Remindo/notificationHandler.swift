@@ -128,4 +128,10 @@ class notification : ObservableObject {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [noti.id])
     }
     
+    func removeAllNotifications() {
+        for noti in reminds {
+            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [noti.id])
+        }
+    }
+    
 }

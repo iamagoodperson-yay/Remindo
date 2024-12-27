@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var username = ""
+    @AppStorage("greetingKey") var username = ""
     @State private var settings = false
     
     var body: some View {

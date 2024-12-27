@@ -255,7 +255,7 @@ struct homework: View {
                             .textCase(.none)
                             .bold()
                     } footer: {
-                        Text("Swipe right to delete")
+                        Text("Swipe left to delete")
                             .foregroundColor(Color.white)
                             .bold()
                     }

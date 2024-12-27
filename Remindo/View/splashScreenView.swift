@@ -44,8 +44,8 @@ struct splashScreenView: View {
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                         withAnimation(.easeInOut(duration: 1.5) .repeatCount(4,autoreverses: true)) {
-                            self.size = 0.85
-                            self.opacity = 0.75
+                            self.opacity = 0.8
+                            self.size = 0.9
                         }
                     }
                 }

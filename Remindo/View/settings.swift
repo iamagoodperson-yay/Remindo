@@ -37,6 +37,11 @@ struct settings: View {
                                 
                             }
                     })
+                    .onChange(of: notify.send) { notif in
+                        if (!notif) {
+                            notify.removeAllNotifications()
+                        }
+                    }
                     
                     Button {
                         notify.askPermissions()
